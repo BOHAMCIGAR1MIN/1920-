@@ -1,4 +1,4 @@
-package 연습용프로젝트;
+package 연습용프로젝트1;
 
 public class n5문자형연습 {
 

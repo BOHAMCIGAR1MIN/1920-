@@ -1,10 +1,13 @@
-package ch02;
+package 연습용수업용프로젝스;
 
 public class RadixTest {
 
 	public static void main(String[] args) {
 		binarytest();
 		octaltest();
+		byteTest();
+		//2^31=10^3^3
+		//2^63=8*10^3^6
 	}
 
 	private static void octaltest() {
@@ -42,6 +45,14 @@ public class RadixTest {
 	private static void byteTest( ) {
 		byte aNum = 127;
 		System.out.println(aNum);
+	}
+	private static int calcNextyear(int year) {
+		return year +2;
+	}
+	private static void charManipulate() {
+		int myChar = 'A';
+		myChar = myChar + 2;
+		System.out.println((char)myChar);
 	}
 }
 

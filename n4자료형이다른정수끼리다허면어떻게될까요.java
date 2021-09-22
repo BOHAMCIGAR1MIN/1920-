@@ -1,4 +1,4 @@
-package 연습용프로젝트;
+package 연습용프로젝트1;
 
 public class n4자료형이다른정수끼리다허면어떻게될까요{
 	public static void main(String[] args) {
