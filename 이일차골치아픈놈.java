@@ -16,7 +16,7 @@ public class 이일차골치아픈놈 {
 		// 2차원 배열(행row,렬 column)에 담긴 원하는 원소 뽑기
 		System.out.println(data[0][0]);// a
 		System.out.println(data[0][6]);
-		System.out.println(data[5][3]);
+		System.out.println(data[5][3]);//좌표계
 	}
 	private static void drawRect() {
 		// 42개의 데이타를 담겨있는 모양 그대로 출력
