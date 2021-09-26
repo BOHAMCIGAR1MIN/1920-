@@ -3,8 +3,25 @@ package 연습용프로젝트1;
 public class n17ifellse곱2문으로입장료계산하기 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int age = 9;
+		int charge;//변수 2개를 선언한다.
+		
+	if(age<8) {
+		charge = 1000;
+		System.out.println("취학전아동");
 	}
-
+	else if(age < 14) {
+		charge = 2000;
+		System.out.println("초등학생입니다.");
+	}
+	else if(age < 20) {
+		charge = 2500;
+		System.out.println("중학생입니다.");
+	}
+	else {
+		charge = 3000;
+		System.out.println("일반인입니다.");
+	}
+	System.out.println("입장료는"+charge+"원입니다.");
+	}
 }
