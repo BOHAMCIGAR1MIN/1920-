@@ -1,0 +1,11 @@
+---kjnldjlfjdlkaj;
+create table Department(
+	id 	integer primary key,
+ 	name 	varchar(100)
+ 	
+);
+
+insert into Department (id, name) values(-1,'홍길동');
+insert into Department (id, name) values(-2,'이순신');
+
+select * from Department;
